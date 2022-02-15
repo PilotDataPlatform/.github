@@ -12,4 +12,4 @@ REST API documentation in the form of Swagger/OpenAPI can be found here: [API Do
 Components of the Pilot Platform are available as helm charts for installation on Kubernetes: [Helm Chart Repository](https://github.com/PilotDataPlatform/helm-charts)
 
 ---
-<img src="assets/indoc_research.png" alt="Indoc Research" width="200"/>
+<img src="profile/assets/indoc_research.png" alt="Indoc Research" width="200"/>
