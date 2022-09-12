@@ -1,4 +1,4 @@
-# Contributing to Pilot Data Platform
+# Contributing to Pilot
 Welcome and thank you for your interest in Pilot!
 
 This document outlines contribution guidelines for any interested party that wishes to contribute to Pilot. 
