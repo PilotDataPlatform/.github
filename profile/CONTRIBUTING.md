@@ -15,6 +15,7 @@ This document outlines contribution guidelines for any interested party that wis
   * [Dockerfiles](#dockerfiles)
   * [JavaScript Development](#javascript-development)
   * [Git Commit Messages](#git-commit-messages)
+  
 [How to Contribute?](#how-to-contribute)
   * [Issues](#issues)
   * [Pull Requests](#pull-requests)
