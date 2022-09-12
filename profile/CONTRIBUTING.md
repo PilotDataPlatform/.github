@@ -74,4 +74,97 @@ trim_trailing_whitespace = true
 insert_final_newline = true
 ```
 
+#### Git Hooks (pre-commit)
+
+Pre-commit is a framework that can run different git hook scripts that perform linting and formatting before every commit. This helps each developer to follow defined guides and focus more on writing code rather than formatting it.
+
+##### Installation
+
+1. Install package `pip install pre-commit`.
+2. Include pre-commit as a dev dependency. 
+3. Add `.pre-commit-config.yaml` file with configuration.
+4. Install git hook scripts `pre-commit install`.
+
+By default, hooks will run each time when git commit is performed and only for files that are staged for the commit. To run checks against specific files use pre-commit run --files path/to/file or recursively against folders pre-commit run --files path/to/folder/**/*.
+
+##### Config
+
+Simple example of `.pre-commit-config.yaml` file that can be put into the root folder per each project.
+
+```yaml
+repos:
+
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.0.1
+    hooks:
+      - id: check-added-large-files
+      - id: check-docstring-first
+      - id: check-merge-conflict
+      - id: check-toml
+      - id: check-yaml
+      - id: double-quote-string-fixer
+      - id: end-of-file-fixer
+      - id: requirements-txt-fixer
+      - id: trailing-whitespace
+
+  - repo: https://github.com/psf/black
+    rev: 21.10b0
+    hooks:
+      - id: black
+        args: [
+            '--line-length=120',
+            '--skip-string-normalization',
+        ]
+
+  - repo: https://github.com/pycqa/isort
+    rev: 5.10.0
+    hooks:
+      - id: isort
+        args: [
+            '--profile=black',
+            '--filter-files',
+            '--force-single-line-imports',
+            '--reverse-relative',
+        ]
+
+  - repo: https://gitlab.com/pycqa/flake8
+    rev: 3.9.2
+    hooks:
+      - id: flake8
+        additional_dependencies: [
+            'pycodestyle==2.7.0',  # E,W
+            'pyflakes==2.3.0',  # F
+            'mccabe==0.6.1',  # C
+            'flake8-bugbear==21.3.2',  # B
+            'flake8-builtins==1.5.3',  # A
+            'flake8-comprehensions==3.3.1',  # C4
+            'flake8-debugger==4.0.0',  # T1
+            'flake8-logging-format==0.6.0',  # G
+            'flake8-print==4.0.0',  # T0
+        ]
+        args: [
+            '--select=E,W,F,C,B,A,C4,T1,G,T0',
+            '--ignore=W503,B008,B305,A003,G003,G004',
+            '--max-complexity=10',
+            '--max-line-length=120',
+        ]
+
+  - repo: https://github.com/myint/docformatter
+    rev: v1.4
+    hooks:
+      - id: docformatter
+        args: [
+            '--wrap-summaries=120',
+            '--wrap-descriptions=120',
+            '--in-place',
+        ]
+```
+
+
+Above config contains multiple steps with several checks:
+1. Run basic sanity checks from pre-commit-hooks.
+2. Format code using Black formatter.
+3. Perform additional checks using Flake8 and its extensions to follow PEP 8 and best practices.
+4. Format docstrings using docformatter according to PEP 257.
+
 ### JavaScript Development
