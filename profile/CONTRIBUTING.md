@@ -46,5 +46,32 @@
           ├── test_base_models.py
           └── test_data_download_models.py
   ```
+ 
+#### Editor Config
+[EditorConfig](https://editorconfig.org/) helps maintain consistent coding styles for multiple developers working on the same project across various editors and IDEs. 
+Some IDEs are already bundled with native support for EditorConfig, some - not. Support for your editor can be checked [here](https://editorconfig.org/#pre-installed).
+
+Simple example of .editorconfig file that can be put into the root folder per each project.
+
+```
+root = true
+
+[*]
+charset = utf-8
+tab_width = 4
+indent_style = space
+
+[*.py]
+end_of_line = lf
+indent_size = 4
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+[*.{yml,yaml}]
+end_of_line = lf
+indent_size = 2
+trim_trailing_whitespace = true
+insert_final_newline = true
+```
 
 ### JavaScript Development
