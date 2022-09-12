@@ -8,9 +8,15 @@ This document outlines contribution guidelines for any interested party that wis
 🚧 UNDER CONSTRUCTION 🚧
 
 [Styleguides](#styleguides)
- * [Python Development)(#python-development)
-  * [General Python Guidelines](#general-python-guidelines)
-  * [Editor Config](#editor-config)
+ * [Python Development](#python-development)
+   * [General Python Guidelines](#general-python-guidelines)
+   * [Editor Config](#editor-config)
+   * [Git Hooks](#git-hooks-(pre-commit))
+ * [JavaScript Development](#javascript-development)
+ * [Git Commit Messages](#git-commit-messages)
+[How to Contribute?](#how-to-contribute?)
+ * [Issues](#issues)
+ * [Pull Requests](#pull-requests)
 
 
 ## Styleguides
