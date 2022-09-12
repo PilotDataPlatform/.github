@@ -5,7 +5,7 @@ This document outlines contribution guidelines for any interested party that wis
 
 
 #### Table Of Contents
-🚧 UNDER CONSTRUCTOIN 🚧
+🚧 UNDER CONSTRUCTION 🚧
 
 
 ## Styleguides
@@ -177,23 +177,23 @@ Above config contains multiple steps with several checks:
 
 ### JavaScript Development
 
-🚧 UNDER CONSTRUCTOIN 🚧
+🚧 UNDER CONSTRUCTION 🚧
 
 
 ### Git Commit Messages
 
-🚧 UNDER CONSTRUCTOIN 🚧
+🚧 UNDER CONSTRUCTION 🚧
 
 ## How to contribute?
 
-🚧 UNDER CONSTRUCTOIN 🚧
+🚧 UNDER CONSTRUCTION 🚧
 
 ### Issues
 
-🚧 UNDER CONSTRUCTOIN 🚧
+🚧 UNDER CONSTRUCTION 🚧
 
 ### Pull Requests
 
-🚧 UNDER CONSTRUCTOIN 🚧
+🚧 UNDER CONSTRUCTION 🚧
 
 
