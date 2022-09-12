@@ -1,4 +1,12 @@
 # Contributing to Pilot Data Platform
+Welcome and thank you for your interest in Pilot!
+
+This document outlines contribution guidelines for any interested party that wishes to contribute to Pilot. 
+
+
+#### Table Of Contents
+🚧 UNDER CONSTRUCTOIN 🚧
+
 
 ## Styleguides
 
@@ -168,3 +176,24 @@ Above config contains multiple steps with several checks:
 4. Format docstrings using docformatter according to PEP 257.
 
 ### JavaScript Development
+
+🚧 UNDER CONSTRUCTOIN 🚧
+
+
+### Git Commit Messages
+
+🚧 UNDER CONSTRUCTOIN 🚧
+
+## How to contribute?
+
+🚧 UNDER CONSTRUCTOIN 🚧
+
+### Issues
+
+🚧 UNDER CONSTRUCTOIN 🚧
+
+### Pull Requests
+
+🚧 UNDER CONSTRUCTOIN 🚧
+
+
