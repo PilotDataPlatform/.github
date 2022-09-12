@@ -7,12 +7,17 @@ This document outlines contribution guidelines for any interested party that wis
 #### Table Of Contents
 🚧 UNDER CONSTRUCTION 🚧
 
+[Styleguides](#styleguides)
+ * [Python Development)(#python-development)
+  * [General Python Guidelines](#general-python-guidelines)
+  * [Editor Config](#editor-config)
+
 
 ## Styleguides
 
 ### Python Development
 
-#### General
+#### General Python Guidelines
 
 - Start with reading PEP 8 for essential rules. Sometimes it’s good to read it several times :slight_smile:.
 - Check PEP 257 regarding doc strings formatting.
