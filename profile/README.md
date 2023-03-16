@@ -1,7 +1,5 @@
 # Pilot Data Platform
 
-[![License](https://img.shields.io/badge/license-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
-
 The Pilot Data Platform by Indoc Research. 
 
 
