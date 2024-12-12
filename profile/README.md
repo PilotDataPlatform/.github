@@ -1,6 +1,6 @@
 # Pilot Data Platform
 
-The Pilot Data Platform by Indoc Research. 
+The Pilot Data Platform by Indoc Systems. 
 
 
 ## API Docs
