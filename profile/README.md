@@ -1,6 +1,10 @@
 # Pilot Data Platform
 
 The Pilot Data Platform by Indoc Systems. 
+<p>
+  <img src="/profile/assets/pilot.avif" alt="Indoc Research" width="200"/>  
+</p>
+
 
 
 ## API Docs
